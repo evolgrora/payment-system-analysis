@@ -1,0 +1,25 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 运行日志（每次跑脚本都会生成）
+run_*.txt
+_*.txt
+*.log
+
+# 中间产物：由 06_clean_txt.py / 07_build_csv.py 重新生成，不入库
+data/raw/txt/
+data/raw/norm/
+
+# 系统文件
+.DS_Store
+Thumbs.db
